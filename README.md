@@ -188,7 +188,8 @@ See [docs/RELEASE.md](docs/RELEASE.md) for app name, signing, store builds and t
 
 ## Authors
 
-<!-- hassansorunke@gmail.com and Hassan-akachi -->
+hassansorunke@gmail.com 
+Hassan-akachi
 
 ## License
 
