@@ -1,0 +1,26 @@
+# PowerSync sync rules for Inventra.
+# Paste into PowerSync dashboard → your instance → Sync Rules, then Deploy.
+# Every member of a business downloads that business's data.
+# (Staff shop limits are applied in the app and enforced by RLS on writes.)
+bucket_definitions:
+  business:
+    parameters: SELECT business_id FROM members WHERE user_id = request.user_id() AND deleted_at IS NULL
+    data:
+      - SELECT * FROM businesses WHERE id = bucket.business_id
+      - SELECT * FROM members WHERE business_id = bucket.business_id
+      - SELECT * FROM main_categories WHERE business_id = bucket.business_id
+      - SELECT * FROM item_categories WHERE business_id = bucket.business_id
+      - SELECT * FROM items WHERE business_id = bucket.business_id
+      - SELECT * FROM item_units WHERE business_id = bucket.business_id
+      - SELECT * FROM price_history WHERE business_id = bucket.business_id
+      - SELECT * FROM suppliers WHERE business_id = bucket.business_id
+      - SELECT * FROM item_suppliers WHERE business_id = bucket.business_id
+      - SELECT * FROM customers WHERE business_id = bucket.business_id
+      - SELECT * FROM sales WHERE business_id = bucket.business_id
+      - SELECT * FROM sale_items WHERE business_id = bucket.business_id
+      - SELECT * FROM payments WHERE business_id = bucket.business_id
+      - SELECT * FROM stock_movements WHERE business_id = bucket.business_id
+      - SELECT * FROM restocks WHERE business_id = bucket.business_id
+      - SELECT * FROM expenses WHERE business_id = bucket.business_id
+      - SELECT * FROM analytics_snapshots WHERE business_id = bucket.business_id
+      - SELECT * FROM exchange_rates WHERE business_id = bucket.business_id

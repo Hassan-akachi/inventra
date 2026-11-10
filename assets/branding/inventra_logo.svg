@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><rect width="1024" height="1024" rx="224" fill="#14213D"/><clipPath id="cl"><polygon points="262.0,395.7 512.0,540.0 512.0,830.0 262.0,685.7"/></clipPath>
+<clipPath id="cr"><polygon points="512.0,540.0 762.0,395.7 762.0,685.7 512.0,830.0"/></clipPath>
+<clipPath id="ct"><polygon points="512.0,251.3 762.0,395.7 512.0,540.0 262.0,395.7"/></clipPath>
+<polygon points="262.0,395.7 512.0,540.0 512.0,830.0 262.0,685.7" fill="#C8412B"/>
+<polygon points="512.0,540.0 762.0,395.7 762.0,685.7 512.0,830.0" fill="#1E8F4E"/>
+<polygon points="512.0,251.3 762.0,395.7 512.0,540.0 262.0,395.7" fill="#F2B705"/>
+<line x1="222" y1="436.4" x2="552" y2="626.9" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cl)"/>
+<line x1="222" y1="448.0" x2="552" y2="638.5" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cl)"/>
+<polyline points="228.0,496.3 262.0,548.0 296.0,535.6 330.0,587.2 364.0,574.9 398.0,626.5 432.0,614.1 466.0,665.7 500.0,653.4 534.0,705.0" fill="none" stroke="#0B1226" stroke-width="9" stroke-linejoin="miter" clip-path="url(#cl)"/>
+<line x1="222" y1="569.8" x2="552" y2="760.3" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cl)"/>
+<line x1="222" y1="581.4" x2="552" y2="771.9" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cl)"/>
+<line x1="472" y1="626.9" x2="802" y2="436.4" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cr)"/>
+<line x1="472" y1="638.5" x2="802" y2="448.0" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cr)"/>
+<polyline points="478.0,679.9 512.0,692.3 546.0,640.7 580.0,653.0 614.0,601.4 648.0,613.8 682.0,562.2 716.0,574.5 750.0,522.9 784.0,535.3" fill="none" stroke="#0B1226" stroke-width="9" stroke-linejoin="miter" clip-path="url(#cr)"/>
+<line x1="472" y1="760.3" x2="802" y2="569.8" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cr)"/>
+<line x1="472" y1="771.9" x2="802" y2="581.4" stroke="#FFF4E0" stroke-width="7" clip-path="url(#cr)"/>
+<polygon points="512.0,306.2 667.0,395.7 512.0,485.2 357.0,395.7" fill="none" stroke="#14213D" stroke-width="10" clip-path="url(#ct)"/>
+<polygon points="512.0,343.7 602.0,395.7 512.0,447.6 422.0,395.7" fill="none" stroke="#14213D" stroke-width="10" clip-path="url(#ct)"/>
+<circle cx="512" cy="395.6624327025936" r="18.8" fill="#14213D"/>
+<circle cx="562.0" cy="299.0" r="6" fill="#14213D"/>
+<circle cx="462.0" cy="299.0" r="6" fill="#14213D"/>
+<circle cx="612.0" cy="327.8" r="6" fill="#14213D"/>
+<circle cx="412.0" cy="327.8" r="6" fill="#14213D"/>
+<circle cx="662.0" cy="356.7" r="6" fill="#14213D"/>
+<circle cx="362.0" cy="356.7" r="6" fill="#14213D"/>
+<circle cx="712.0" cy="385.6" r="6" fill="#14213D"/>
+<circle cx="312.0" cy="385.6" r="6" fill="#14213D"/>
+<polyline points="262.0,395.7 512.0,540.0 762.0,395.7" fill="none" stroke="#0B1226" stroke-opacity="0.35" stroke-width="5"/>
+<line x1="512" y1="540" x2="512" y2="830.0" stroke="#0B1226" stroke-opacity="0.35" stroke-width="5"/></svg>
